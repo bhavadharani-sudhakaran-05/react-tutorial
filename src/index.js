@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import FavoriteColor from './components/FavoriteColor';
+import Car from './components/Car';
+import Scooter from './components/Scooter';
+import List from './components/List';
+import Timer from './components/Timer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <FavoriteColor/>
+    <Car/>
+    <Scooter/>
+    <List/>
+    <Timer/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
