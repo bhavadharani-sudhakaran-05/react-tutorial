@@ -8,14 +8,11 @@ import Car from './components/Car';
 import Scooter from './components/Scooter';
 import List from './components/List';
 import Timer from './components/Timer';
+import MyForm from './components/MyForm';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <FavoriteColor/>
-    <Car/>
-    <Scooter/>
-    <List/>
-    <Timer/>
+   <MyForm/>
   </>
 );
 
